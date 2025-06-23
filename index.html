@@ -16,8 +16,7 @@
             srcset="">
         <p class="lead">Eu sou Gustavo_</p>
         <h1>Eu estudo progamação</h1>
-        <p>Ola me chamo Gustavo e sou estudante do Ensino medio da escola Antônio Berreta onde eu
-             estudo Programaçao e Robótica
+        <p>Sou estudante do Ensino medio, da escola Antônio Berreta e estudo Programaçao e Robótica
         <p>Minhas habilidades são:</p>
         <div>
             <p class="badge bg-secondary">HTML</p>
@@ -87,19 +86,20 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>O projeto em questao é uma imagem baseada no famoso quadro monalisa de Leonardo Da Vinci.</p>
-                    <p>Esse projeto em questao consiste em voce mexer o ponteiro do mouse
-                         e fazendo com que os olhos da imagem o siga 
-                        .</p>
-                    <p>O codigo em si desenvolvido no P5js foi criado a base de: Setup (Define o tamanho da telado desenho como 400x400 pixels) 
-                        Draw (que executa e repetidamente e é responsavel por desenha os elementos na tela)
-                        Fill (para dar cor ), </p>
+                    <p>O projeto é uma página interativa desenvolvida com **p5.js**, inspirada na pintura da Monalisa,
+                         com o objetivo de criar um rosto que transmite a sensação de estar observando a pessoa usuária
+                          em tempo real. O diferencial está na interação dinâmica: os olhos do personagem seguem o 
+                          ponteiro do mouse conforme ele se movimenta pela tela, proporcionando uma experiência visual 
+                          envolvente e curiosa.</p> 
+                    <p>A estrutura do projeto é construída com JavaScript, utilizando a biblioteca **p5.js** para
+                         desenhar os elementos gráficos (rosto, olhos, nariz e boca) e programar os comportamentos
+                         interativos. A base do rosto é um círculo colorido, com traços simples e expressivos que 
+                         transmitem uma emoção sutil, semelhante à ambiguidade de expressão da própria Monalisa.</p>
                     <img src="img/monalisa img1.png" class="img-fluid w-100"
                         alt="Imagem representativa do projeto monalisa">
                 </div>
                 <div class="modal-footer">
-                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
-                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                    <a href="https://editor.p5js.org/gugu_777/sketches/4JdrhmJP-">Ver projeto ao vivo</a>
                 </div>
             </div>
         </div>
@@ -113,44 +113,80 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
-                        simula uma experiência narrativa centrada no tema da Inteligência Artificial. O objetivo é
-                        engajar os jogadores em um cenário fictício que aborda o avanço da IA e suas possíveis
-                        consequências para a humanidade, destacando a importância da reflexão ética sobre a tecnologia.
-                    </p>
-                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, caixa de
-                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
-                        é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
-                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
-                        interatividade ao jogo, manipulando o DOM para atualizar o conteúdo da página conforme as
-                        escolhas do jogador, e determinando o fluxo da narrativa através de uma série de perguntas e
-                        respostas.</p>
-                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
-                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
-                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
-                        imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
-                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
-                        tela.</p>
-                    <p>Os scripts JavaScript incluem módulos para gerar nomes aleatórios, definir as perguntas e as
-                        lógicas de jogo, como iniciar o jogo, apresentar perguntas e alternativas, processar as escolhas
-                        dos jogadores, e exibir o resultado final. Este design modular facilita a manutenção e a
-                        expansão futura do jogo. A importância das ferramentas utilizadas (HTML, CSS, JavaScript) reside
-                        na criação de uma experiência interativa que não apenas entretém, mas também educa os jogadores
-                        sobre a complexidade ética e social da IA, incentivando a reflexão crítica sobre o papel da
-                        tecnologia em nossas vidas.
-                    </p>
+                     <p>Este projeto é uma simulação interativa criada com **p5.js**, inspirada no clássico jogo 
+                        “**Quente e Frio**”, no qual a proximidade de um ponto escondido determina se a pessoa 
+                        está “quente” (próxima) ou “fria” (longe). O objetivo é permitir que a pessoa usuária 
+                        encontre a posição correta movendo o cursor do mouse pela tela, usando como dica visual 
+                        o tamanho de um círculo que muda de acordo com a distância em relação ao ponto-alvo.</p>
+                    <p>O funcionamento é simples, mas eficaz: quanto mais próximo o cursor estiver do ponto 
+                        secreto, menor será o círculo exibido na tela, indicando que está “quente”. À medida que
+                         a pessoa se afasta, o círculo aumenta de tamanho, sinalizando que está “frio”.
+                         Essa relação é calculada dinamicamente com base na distância entre o ponteiro 
+                         do mouse e o ponto fixo escondido.</p> 
+                    <p>O projeto utiliza funções como `dist()` para medir a distância e `map()` para converter 
+                        essa distância em variação de tamanho. A função `ellipse()` é usada para desenhar o círculo
+                         central que serve de indicador. O plano de fundo cinza neutro ajuda a manter o foco no 
+                         elemento interativo.</p>
                     <img src="img/ache o ponto img 2.png" class="img-fluid w-100"
                         alt="Imagem representativa do projeto Quente e Frio">
                 </div>
                 <div class="modal-footer">
-                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                    <a href="https://editor.p5js.org/gugu_777/sketches/H5wSOBxin">Ver projeto ao
                         vivo</a>
-                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
-                        projeto</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é um **jogo de corrida interativo** desenvolvido com a biblioteca **p5.js**, 
+                        ideal para ser jogado entre amigos. O jogo é composto por quatro personagens representados
+                         por diferentes emojis, cada um controlado por uma tecla específica do teclado: 
+                         “**A**”, “**S**”, “**D**” e “**F**”. O objetivo é simples e divertido: quem fizer seu emoji
+                          chegar primeiro à linha de chegada vence.</p>
+                    <p>A lógica do jogo se baseia em capturar os eventos de teclado e associar o movimento de cada emoji
+                         a uma tecla distinta. A cada toque, o respectivo personagem avança horizontalmente no cenário,
+                          em direção a uma linha de chegada demarcada visualmente por uma faixa quadriculada no lado direito da tela.</p>
+                     <p>O fundo em tom claro cria um contraste agradável com os emojis coloridos e bem-humorados,
+                         reforçando o caráter lúdico e competitivo do projeto. Os jogadores precisam ser rápidos 
+                         e coordenados para clicar suas teclas repetidamente e fazer seus personagens avançarem.</p>
+                     <p>O projeto utiliza as funções `keyPressed()` para detectar entradas do teclado, além de
+                         estruturas condicionais para movimentar os emojis individualmente. Elementos gráficos como emojis
+                          e a linha de chegada são renderizados com imagens ou formas básicas, organizados em um loop que 
+                          atualiza o jogo em tempo real.</p> 
+                    <p>Além de proporcionar diversão, esse jogo permite exercitar habilidades de programação relacionadas 
+                        a eventos do teclado, controle de objetos na tela e lógica de vitória. É uma ótima introdução ao 
+                        desenvolvimento de jogos simples com **p5.js**, combinando criatividade, interatividade e aprendizado 
+                        colaborativo.</p>
+                    <img src="img/corrita img3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/gugu_777/sketches/FVJjY7oHlT">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/agustinho244">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Gustavo Augusto</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
 
     <!-- Modal 3 -->
     <div class="modal" id="modal3" tabindex="-1">
